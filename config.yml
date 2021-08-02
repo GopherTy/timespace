@@ -1,0 +1,10 @@
+---
+DB:
+  Driver: mysql
+  Source: test:123456@tcp(192.168.0.123:3306)/gopherty?charset=utf8
+  ShowSQL: true
+  MaxOpenConns: 10
+  MaxIdleConns: 2
+  Cached: 200
+Server:
+  Address: :10000
